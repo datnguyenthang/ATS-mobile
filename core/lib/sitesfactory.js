@@ -967,7 +967,8 @@ angular.module('mm.core')
                     }
                 } else if (typeof data == 'undefined' || typeof data.code == 'undefined') {
                     // local_mobile returned something we didn't expect. Let's assume it's not installed.
-                    return {code: 0, warning: 'mm.login.localmobileunexpectedresponse'};
+                    //return {code: 0, warning: 'mm.login.localmobileunexpectedresponse'};
+					return {code: 0};
                 }
 
                 var code = parseInt(data.code, 10);
