@@ -35,18 +35,16 @@ angular.module('mm.addons.mod_url', ['mm.core'])
     });
 
 })
+
 .config(function($mmCourseDelegateProvider, $mmContentLinksDelegateProvider) {
     $mmCourseDelegateProvider.registerContentHandler('mmaModUrl', 'url', '$mmaModUrlHandlers.courseContentHandler');
 
     // Register content links handler.
     $mmContentLinksDelegateProvider.registerLinkHandler('mmaModUrl', '$mmaModUrlHandlers.linksHandler');
-})
-
-
-.config(function($sceDelegateProvider) {
-   $sceDelegateProvider.resourceUrlWhitelist([
-       // Allow same origin resource loads.
-       'self',
-       // Allow loading from our assets domain.  Notice the difference between * and **.
-       'https://static.fecredit.com.vn/**']);
-});;
+}).config(function($sceDelegateProvider) {  
+    $sceDelegateProvider.resourceUrlWhitelist([
+    'self',
+    // Allow loading from our assets domain. **.
+    'https://static.fecredit.com.vn/**'
+  ])
+});

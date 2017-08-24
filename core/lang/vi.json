@@ -1,11 +1,11 @@
-﻿{
+{
     "accounts": "Các tài khoản",
     "allparticipants": "Tất cả thành viên",
     "android": "Android",
     "areyousure": "Bạn có chắc?",
     "back": "Quay lại",
     "cancel": "Hủy",
-    "cannotconnect": "Không thể kết nối: Xác nhận rằng bạn đã kết nối mạng và Website đang sử dụng phiên bản Moodle 2.4 hoặc lớn hơn.",
+    "cannotconnect": "Không thể kết nối: Xác nhận rằng bạn đã đánh chính xác đường dẫn và Website đang sử dụng phiên bản Moodle 2.4 hoặc lớn hơn.",
     "cannotdownloadfiles": "Tệp tải về bị vô hiệu hóa trên Website. Vui lòng liên hệ với quản trị.",
     "category": "Thể loại",
     "choose": "Chọn",
@@ -25,7 +25,7 @@
     "completion-alt-manual-y": "Đã hoàn thành: {{$a}}.  Chọn để đánh dấu như đã không hoàn thành.",
     "confirmcanceledit": "Bạn có chắc chắn muốn rời khỏi trang này? Tất cả thay đổi sẽ bị mất.",
     "confirmdeletefile": "Bạn có chắc chăn muốn xóa tệp này?",
-    "confirmloss": "Bạn có chắc? Tất cả thay đổi sẽ bị mất.",
+    "confirmloss": "Bạn có chắc?Tất cả thay đổi sẽ bị mất.",
     "confirmopeninbrowser": "Bạn có muốn mở nó trên trình duyệt Web?",
     "content": "Nội dung",
     "continue": "Tiếp tục",
@@ -208,7 +208,7 @@
     "whoops": "Rất tiếc!",
     "whyisthishappening": "Tại sao chuyện này đang xảy ra?",
     "windowsphone": "Windows Phone",
-    "wsfunctionnotavailable": "Chức năng dịch vụ Web hiện tại không có sẵn.",
+    "wsfunctionnotavailable": "The webservice function is not available.",
     "year" : "năm",
     "years": "năm",
     "yes": "No"

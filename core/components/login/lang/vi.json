@@ -1,8 +1,8 @@
-﻿{
+{
     "auth_email": "Tự đăng ký dựa trên email",
     "authenticating": "Chứng thực",
     "cancel": "Hủy",
-    "checksiteversion": "Kiểm tra kết nối Internet hoặc trang web của bạn có sử dụng Moodle 2.4 hoặc cao hơn không.",
+    "checksiteversion": "Kiểm tra xem trang web của bạn có sử dụng Moodle 2.4 hoặc cao hơn không.",
     "createaccount": "Tạo một tài khoản mới",
     "createuserandpass": "Chọn ký danh và mật khẩu của bạn",
     "credentialsdescription": "Vui lòng cung cấp tên đăng nhập và mật khẩu của bạn để đăng nhập.",
@@ -31,7 +31,7 @@
     "invalidurl": "Đã chỉ định đường dẫn không hợp lệ",
     "invalidvaluemax": "Giá trị tối đa là {{$a}}",
     "invalidvaluemin": "Giá trị tối thiểu là {{$a}}",
-    "localmobileunexpectedresponse": "Bạn chưa đăng nhập vào hệ thống ATS, vui lòng đăng nhập!!!",
+    "localmobileunexpectedresponse": "Kiểm tra tính năng bổ sung của Moodle Mobile trả về một phản hồi bất ngờ, bạn sẽ được chứng thực bằng dịch vụ Mobile chuẩn.",
     "login": "Đăng nhập",
     "loginbutton": "Đăng nhập",
     "logininsiterequired": "Bạn cần phải đăng nhập vào trang web trong một cửa sổ trình duyệt.",
