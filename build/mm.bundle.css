@@ -13366,6 +13366,19 @@ p.mma-mod-assign-warning {
   .mma-mod_chat-users-modal .button-bar .button {
     border: 0; }
 
+.mm-site_mod_choice .chart {
+  max-width: 400px;
+  margin: 0 auto; }
+
+@media (min-width: 767px) {
+  .mm-site_mod_choice .col {
+    border-left: 1px solid #dddddd; }
+    .mm-site_mod_choice .col.item, .mm-site_mod_choice .mm-grades-table .col.itemcenter, .mm-grades-table .mm-site_mod_choice .col.itemcenter, .mm-site_mod_choice .col .chart-item {
+      margin-top: 0;
+      border-top: 0; }
+    .mm-site_mod_choice .col:first-child {
+      border-left: 0; } }
+
 .mm-site_mod_feedback .mm-analysis ul {
   font-size: 14px; }
 
@@ -13382,19 +13395,6 @@ p.mma-mod-assign-warning {
 
 .mm-site_mod_feedback-form input, .mm-site_mod_feedback-form textarea {
   background: transparent; }
-
-.mm-site_mod_choice .chart {
-  max-width: 400px;
-  margin: 0 auto; }
-
-@media (min-width: 767px) {
-  .mm-site_mod_choice .col {
-    border-left: 1px solid #dddddd; }
-    .mm-site_mod_choice .col.item, .mm-site_mod_choice .mm-grades-table .col.itemcenter, .mm-grades-table .mm-site_mod_choice .col.itemcenter, .mm-site_mod_choice .col .chart-item {
-      margin-top: 0;
-      border-top: 0; }
-    .mm-site_mod_choice .col:first-child {
-      border-left: 0; } }
 
 .mma-forum-discussion-link {
   text-decoration: none; }
