@@ -1,13 +1,13 @@
 {
-    "admindisableddownload": "Vui lòng chú ý rằng , quản trị trang đã vô hiệu hóa việc tải tập tin, bạn có thể xem tập tin nhưng không thể tài chúng về.",
-    "clicktoupload": "Chọn nút bên dưới để tải lên các tập tin của bạn.",
-    "couldnotloadfiles": "Danh sách cái tập tin không thể được tải.",
-    "emptyfilelist": "Không có tập tin nào được hiển thị.",
-    "erroruploadnotworking": "Rất tiếc, việc tải lên các tập tin không khả thi vào lúc này.",
+    "admindisableddownload": "Vui lòng chú ý rằng Quản Trị Hệ Thống đã vô hiệu hóa tải tập tin xuống, bạn có thể duyệt tập tin nhưng không thể tải xuống.",
+    "clicktoupload": "Chọn vào nút bên dưới để tải lên tập tin riêng tư của bạn.",
+    "couldnotloadfiles": "Danh sách các tập tin không thể tải.",
+    "emptyfilelist": "Không có tập tin nào.",
+    "erroruploadnotworking": "Hiện tại không có tập tin nào có thể được tải lên.",
     "files": "Tập tin của bạn",
-    "privatefiles": " Tập tin riêng tư",
-    "myprivatefilesdesc": "Các tập tin có sẵn trong vùng cá nhân của bạn trên trang web.",
-    "sitefiles": "Trang  tập tin ",
-    "sitefilesdesc": "Các tập tin có sẵn trên trang Web.",
-    "uploadfiles": "Tập tin tải lên"
+    "privatefiles": "Tập tin riêng tư",
+    "myprivatefilesdesc": "Tập tin có sẵn trong vùng riêng tư trên hệ thống.",
+    "sitefiles": "Trang tập tin",
+    "sitefilesdesc": "Các tập tin khác có sẵn trên hệ thống.",
+    "uploadfiles": "Tải tập tin lên"
 }

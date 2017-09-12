@@ -55,7 +55,7 @@
     "download": "Tải xuống",
     "downloading": "Đang tải xuống",
     "edit": "Chỉnh xửa",
-    "emptysplit": "Trang này sẽ bị trống nêu bảng điều khiển bên trau là rỗng hay đang tải.",
+    "emptysplit": "Trang này sẽ trống nếu bảng điều khiển bên trái là rỗng hay đang tải.",
     "error": "Lỗi",
     "errorchangecompletion": "Có lỗi xuất hiện trong khi thay đổi trạng thái hoàn thành. Vui lòng thử lại sau.",
     "errordeletefile": "Lỗi xóa têp. Vui lòng thử lại.",
