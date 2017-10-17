@@ -23,15 +23,17 @@
     <gap:platform name="android" />
 
     <access origin="*" />
+    <access origin="tel:*" launch-external="yes" />
+    <access origin="mailto:*" launch-external="yes" />
+    <access origin="geo:*" launch-external="yes" />
 
-
-
+    <allow-navigation href="cdvfile:*" />
+    <allow-navigation href="content:*" />
+    <allow-navigation href="data:*" />
     <allow-navigation href="*" />
 
     <allow-intent href="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-<plugin name="cordova-plugin-crosswalk-webview" spec="https://github.com/zhouzhongyuan/cordova-plugin-crosswalk-webview" />
+
     <preference name="phonegap-version" value="cli-6.5.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
@@ -51,11 +53,6 @@
 
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
-    </feature>
-
-    <feature name="IntentAndNavigationFilter">
-        <param name="ios-package" value="CDVIntentAndNavigationFilter"/>
-        <param name="onload" value="true"/>
     </feature>
 
     <preference name="AndroidPersistentFileLocation"    value="Compatibility" />
@@ -133,7 +130,7 @@
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <gap:plugin name="cordova-universal-clipboard" source="npm" />
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" />
-    
+
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.9.2">
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
