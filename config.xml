@@ -23,13 +23,9 @@
     <gap:platform name="android" />
 
     <access origin="*" />
-    <access origin="tel:*" launch-external="yes" />
-    <access origin="mailto:*" launch-external="yes" />
-    <access origin="geo:*" launch-external="yes" />
 
-    <allow-navigation href="cdvfile:*" />
-    <allow-navigation href="content:*" />
-    <allow-navigation href="data:*" />
+
+
     <allow-navigation href="*" />
 
     <allow-intent href="*" />
@@ -53,6 +49,11 @@
 
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
+    </feature>
+
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter"/>
+        <param name="onload" value="true"/>
     </feature>
 
     <preference name="AndroidPersistentFileLocation"    value="Compatibility" />
