@@ -8,17 +8,9 @@
         </mm-context-menu>
     </ion-nav-buttons>
     <ion-content padding="true" mm-state-class>
-    	<div id="content_wrap">
-	   <div class="content_container">
-	      <div id="tickets">
-		<iframe ng-src="{{ url }}" style="overflow-y: scroll;
-						 -webkit-overflow-scrolling: touch;
-						  width: 50%;
-						  height:auto;" frameborder="0">
-	        </iframe>
-	      </div>
-	   </div>
-	</div>
+	<iframe ng-src="{{ url }}" style="width: 50%;
+					  height:100%;" frameborder="0">
+	</iframe>
 <!--
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" on-refresh="doRefresh()" ng-if="loaded"></ion-refresher>
         <mm-loading hide-until="loaded">
