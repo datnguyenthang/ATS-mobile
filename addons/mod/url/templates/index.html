@@ -8,8 +8,7 @@
         </mm-context-menu>
     </ion-nav-buttons>
     <ion-content padding="true" mm-state-class>
-	<iframe ng-src="{{ url }}" style="width: 50%;
-					  height:100%;" frameborder="0">
+	<iframe ng-src="{{ url }}" style="max-width: 100% !important;" frameborder="0">
 	</iframe>
 <!--
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" on-refresh="doRefresh()" ng-if="loaded"></ion-refresher>
