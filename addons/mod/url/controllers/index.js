@@ -32,8 +32,8 @@ angular.module('mm.addons.mod_url')
     $scope.componentId = module.id;
     $scope.canGetUrl = $mmaModUrl.isGetUrlWSAvailable();
     $scope.iframeLoadedCallBack = function(){
-        angular.element('#mod_iframe').css('max-width', '100%');
-    }
+        angular.element(document.querySelector("#mod_iframe"))[0].style.maxWidth = "100%";
+    };
     function fetchContent() {
         // Fetch the module data.
         var promise;
