@@ -1,4 +1,4 @@
-<ion-view>
+<ion-view class="pane">
     <ion-nav-title><mm-format-text watch="true">{{ title }}</mm-format-text></ion-nav-title>
     <ion-nav-buttons side="secondary">
         <mm-context-menu>
@@ -7,9 +7,9 @@
             <mm-context-menu-item priority="700" content="'mm.core.refresh' | translate" action="doRefresh()" icon-action="refreshIcon" close-on-click="false" close-when-done="true"></mm-context-menu-item>
         </mm-context-menu>
     </ion-nav-buttons>
-    <ion-content padding="true" padding="true" class="mm-center-view">
-		<div class="box">
-	    		<iframe ng-src="{{ url }}" class="box"></iframe>
+    <ion-content padding="true" padding="true" class="scroll-content ionic-scroll has-header">
+		<div class="scroll padding" style="transform:translate3d(0px, 0px, 0px) scale(1);">
+	    		<iframe ng-src="{{ url }}"></iframe>
 		</div>
 <!--
 	<iframe id="mod_iframe" ng-src="{{ url }}" onLoad="iframeLoadedCallBack();" frameborder="0" scrolling="yes" style="width:100% !important; height:100%; overflow:scroll;"></iframe>
