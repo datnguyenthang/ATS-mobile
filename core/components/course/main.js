@@ -52,6 +52,25 @@ angular.module('mm.core.course', ['mm.core.courses'])
         }
     })
 
+    .state('site.mm_course-allsection', {
+        url: '/mm_course-allsection',
+        params: {
+            courseid: null,
+            sid: null, // Section to load. Not naming it sectionid because it collides with 'mm_course-section' param in split-view.
+            moduleid: null, // Module to load.
+            course: null,
+            sectionid: null,
+            cid: null, // Not naming it courseid because it collides with 'site.mm_course' param in split-view.
+            mid: null // Not naming it moduleid because it collides with 'site.mm_course' param in split-view.
+        },
+        views: {
+            'site': {
+                templateUrl: 'core/components/course/templates/allsection.html',
+                controller: 'mmCourseSectionCtrl'
+            }
+        }
+    })
+
     .state('site.mm_course-modcontent', {
         url: '/mm_course-modcontent',
         params: {

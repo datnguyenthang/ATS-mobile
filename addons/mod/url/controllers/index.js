@@ -31,21 +31,6 @@ angular.module('mm.addons.mod_url')
     $scope.component = mmaModUrlComponent;
     $scope.componentId = module.id;
     $scope.canGetUrl = $mmaModUrl.isGetUrlWSAvailable();
-    $scope.iframeLoadedCallBack = function(){
-        angular.element(document.querySelector("#mod_iframe"))[0].style.maxWidth = "100%";
-    };
-    
-            var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
-            var eventer = window[eventMethod];
-            var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
-
-            // Listen to message from child window
-            eventer(messageEvent,function(e) {
-                if (e.data = "LOADED") {
-                        
-		 angular.element(document.querySelector("#mod_iframe"))[0].style.maxWidth = "100%";
-                }
-            },false);
 
     function fetchContent() {
         // Fetch the module data.

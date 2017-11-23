@@ -8,6 +8,12 @@
                 <select ng-model="selectedLanguage" ng-options="code as name for (code, name) in langs" ng-change="languageChanged(selectedLanguage)" aria-labelledby="mm-settings-languagelabel" mm-ios-select-fix>
                 </select>
             </li>
+            <li>
+                <a menu-close class="item" ui-sref="site.mm_settings" title="{{ 'mm.sidemenu.appsettings' | translate}}">
+                    {{ 'mm.settings.general' | translate }}
+                </a>
+            </li>
+            <!--
             <ion-toggle ng-if="rteSupported" ng-model="richTextEditor" ng-change="richTextEditorChanged(richTextEditor)">
                 <p class="item-heading">{{ 'mm.settings.enablerichtexteditor' | translate }}</p>
                 <p>{{ 'mm.settings.enablerichtexteditordescription' | translate }}</p>
@@ -15,6 +21,7 @@
             <ion-toggle ng-if="showReport" ng-model="reportInBackground" ng-change="reportChanged(reportInBackground)">
                 <p class="item-heading">{{ 'mm.settings.reportinbackground' | translate }}</p>
             </ion-toggle>
+            -->
         </ul>
     </ion-content>
 </ion-view>

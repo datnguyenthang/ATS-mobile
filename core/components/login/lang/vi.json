@@ -6,7 +6,7 @@
     "createaccount": "Tạo một tài khoản mới",
     "createuserandpass": "Chọn ký danh và mật khẩu của bạn",
     "credentialsdescription": "Vui lòng cung cấp tên đăng nhập và mật khẩu của bạn để đăng nhập.",
-    "confirmdeletesite": "Bạn có chắc chắn muốn xóa trang {{sitename}}?",
+    "confirmdeletesite": "Bạn có muốn đăng xuất tài khoản trên {{sitename}} không?",
     "connect": "Kết nối!",
     "connecttomoodle": "Kết nối tới Moodle",
     "contactyouradministrator": "Liên hệ với quản trị viên trang web của bạn để được trợ giúp thêm.",
