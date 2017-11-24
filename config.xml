@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.moodle.moodlemobile" versionCode="20180" version="1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:gap="http://phonegap.com/ns/1.0" 
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+        id="com.moodle.moodlemobile" 
+        versionCode="20180" 
+        version="1.0">
   <name>FE ATS</name>
-  <description>&#xD;
-        FE ATS Mobile official app&#xD;
+  <description>
+        FE ATS Mobile official app
     </description>
-  <author href="http://moodle.com" email="mobile@moodle.com">&#xD;
-        Moodle Mobile team&#xD;
+  <author href="http://moodle.com" email="mobile@moodle.com">
+        ATS Moodle Mobile team
     </author>
   <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>1.0</string>
@@ -415,7 +420,7 @@
   <allow-navigation href="data:*"/>
   <allow-navigation href="*"/>
   <allow-intent href="*"/>
-  <preference name="phonegap-version" value="cli-7.0.1"/>
+  <preference name="phonegap-version" value="cli-6.5.0"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
   <preference name="fullscreen" value="false"/>
@@ -501,7 +506,8 @@
   </gap:plugin>
   <gap:plugin name="cordova-plugin-device" source="npm"/>
   <gap:plugin name="cordova-plugin-file" source="npm"/>
-  <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
+  <!--<gap:plugin name="cordova-plugin-file-transfer" source="npm"/>-->
+  <gap:plugin name="cordova-plugin-file-transfer"  source="npm"  spec="~1.6.3"/>
   <gap:plugin name="cordova-plugin-globalization" source="npm"/>
   <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
   <gap:plugin name="cordova-plugin-network-information" source="npm"/>
