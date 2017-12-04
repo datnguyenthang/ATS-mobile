@@ -71,6 +71,15 @@ angular.module('mm.addons.mod_url')
         $mmaModUrl.open($scope.url);
     };
 
+    //DAT-TC
+    function checkViewed () {
+        $mmaModUrl.logView(module.instance).then(function() {
+            $mmCourse.checkModuleCompletion(courseId, module.completionstatus);
+        });
+    }
+    checkViewed ();
+console.log(courseId);
+console.log(module.completionstatus);
     $scope.doRefresh = function() {
         if ($scope.loaded) {
             $scope.refreshIcon = 'spinner';
