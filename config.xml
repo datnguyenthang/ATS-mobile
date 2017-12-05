@@ -2,14 +2,14 @@
 <widget xmlns="http://www.w3.org/ns/widgets" 
         xmlns:gap="http://phonegap.com/ns/1.0" 
         xmlns:android="http://schemas.android.com/apk/res/android" 
-        id="com.moodle.moodlemobile" 
+        id="vn.com.fecredit.training" 
         versionCode="20180" 
         version="1.0">
   <name>FE ATS</name>
   <description>
         FE ATS Mobile official app
     </description>
-  <author href="http://moodle.com" email="mobile@moodle.com">
+  <author href="https://training.fecredit.com.vn" email="dat.nguyen.2@fecredit.com.vn">
         ATS Moodle Mobile team
     </author>
   <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -505,7 +505,7 @@
     <param name="MICROPHONE_USAGE_DESCRIPTION" value="We'd like to access your microphone to let you record an audio"/>
   </gap:plugin>
   <gap:plugin name="cordova-plugin-device" source="npm"/>
-  <!-- IOS -->
+  <!-- IOS 
   <gap:plugin name="cordova-plugin-file" source="npm"/>
   <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
   <!-- Android-->
