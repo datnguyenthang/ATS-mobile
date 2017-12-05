@@ -420,7 +420,7 @@
   <allow-navigation href="data:*"/>
   <allow-navigation href="*"/>
   <allow-intent href="*"/>
-  <preference name="phonegap-version" value="cli-6.5.0"/>
+  <preference name="phonegap-version" value="cli-7.0.1"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
   <preference name="fullscreen" value="false"/>
@@ -509,8 +509,8 @@
   <gap:plugin name="cordova-plugin-file" source="npm"/>
   <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
   <!-- Android-->
-  <gap:plugin name="cordova-plugin-file" source="npm" spec="~4.3.3"/>
-  <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="~1.6.3"/>
+  <gap:plugin name="cordova-plugin-file" source="npm" spec="4.3.3"/>
+  <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.3"/>
   
   <gap:plugin name="cordova-plugin-globalization" source="npm"/>
   <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
